@@ -17,11 +17,11 @@ Os arquivos usados para a predição do modelo são:
 
 Durante a construção do modelo, foi necessário realizar etapas fundamentais de preparação dos dados:
 
-- ✅ **Filtragem específica das culturas de laranja** nos arquivos de produção dos anos de 2021, 2022 e 2023, de forma a manter o foco do projeto apenas nessa cultura.
-- ✅ **Padronização e pré-processamento** de quatro conjuntos de dados (NDVI e tabelas de produção), com formatação unificada por ano, mês e município.
-- ✅ O arquivo NDVI original continha dados desde 2000. Para manter a coerência com os dados de produção, **filtramos apenas o período entre 2021 e 2023**.
-- ✅ **Filtramos os municípios da microrregião de Bebedouro**, como Catanduva, Cajobi, Monte Azul Paulista, entre outros, com o objetivo de extrair padrões locais compatíveis com o clima e o solo da região.
-- ✅ Por fim, os dados de NDVI e produtividade foram **relacionados e integrados** em uma única base, contendo: `Ano`, `Mês`, `Município`, `NDVI`, `Área colhida (ha)` e `Rendimento (kg/ha)`.
+- ✅ Filtragem direcionada para a cultura da laranja nos arquivos de produção dos anos de 2021, 2022 e 2023, assegurando que o modelo fosse exclusivamente treinado com dados relevantes à cultura em estudo.
+- ✅ Formatação e padronização dos quatro conjuntos de dados principais (NDVI e tabelas de produção), estruturando-os uniformemente com base em Ano, Mês e Município.
+- ✅ O dataset de NDVI, originalmente abrangendo o período de 2000 a 2023, foi restrito ao intervalo de 2021 a 2023 para garantir compatibilidade temporal com os dados de produtividade agrícola disponíveis.
+- ✅ Aplicou-se um filtro geográfico para considerar apenas os municípios da microrregião de Bebedouro — como Catanduva, Cajobi, Monte Azul Paulista, entre outros — buscando capturar padrões produtivos que compartilham características edafoclimáticas semelhantes.
+- ✅ Por fim, os dados foram integrados em uma única base consolidada, combinando variáveis como Ano, Mês, Município, NDVI, Área colhida (ha) e Rendimento (kg/ha), resultando em um conjunto de dados completo e consistente para o treinamento dos modelos de aprendizado de máquina.
 
 ---
 
@@ -68,8 +68,11 @@ Foram gerados gráficos de **Real vs Predito** para cada modelo. Eles demonstrar
 
 ## Conclusão
 
-O modelo final é capaz de prever o **rendimento agrícola da laranja com alta acurácia**, utilizando dados públicos e acessíveis.  
-Essa abordagem pode ser aplicada em outras culturas e regiões, oferecendo uma ferramenta inteligente de apoio à produção e gestão agrícola.
+O modelo desenvolvido demonstrou alta capacidade preditiva para estimar o rendimento agrícola da cultura da laranja, integrando variáveis ambientais (NDVI) e dados produtivos públicos com precisão.
+
+Com métricas de erro extremamente baixas e desempenho consistente, a solução proposta se mostra uma ferramenta eficiente para apoiar a tomada de decisão no agronegócio, permitindo maior planejamento e otimização das safras.
+
+A metodologia aplicada é escalável, podendo ser facilmente adaptada para outras culturas, regiões e safras, consolidando-se como uma estratégia inteligente e sustentável para a gestão agrícola moderna.
 
 ---
 
