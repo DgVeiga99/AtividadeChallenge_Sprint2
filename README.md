@@ -9,9 +9,9 @@ Este projeto visa prever o **rendimento agrícola da cultura da laranja**, com f
 
 Os arquivos usados para a predição do modelo são:
 - [NDVI da região](satveg_planilha.xlsx)
-- [Produção de Laranja - 2023](Produção 2023 - Sao Paulo.xlsx)
-- [Produção de Laranja - 2022](Produção 2022 - Sao Paulo.xlsx)
-- [Produção de Laranja - 2021](Produção 2021 - Sao Paulo.xlsx)
+- [Produção de Laranja - 2023](Produção_2023_São_Paulo.xlsx)
+- [Produção de Laranja - 2022](Produção_2022_São_Paulo.xlsx)
+- [Produção de Laranja - 2021](Produção_2021_São_Paulo.xlsx)
   
 ## Pré-processamento e Integração dos Dados
 
@@ -58,10 +58,6 @@ Foram treinados e comparados os seguintes modelos de regressão:
 > **Decision Tree**, apesar de excelente, apresentou sinais de overfitting.  
 > Os demais modelos serviram de referência para validação.
 
----
-
-## Visualizações
-
 Foram gerados gráficos de **Real vs Predito** para cada modelo. Eles demonstraram que:
 
 - Random Forest e Decision Tree reproduzem fielmente os valores reais;
@@ -77,9 +73,6 @@ Essa abordagem pode ser aplicada em outras culturas e regiões, oferecendo uma f
 
 ---
 
-## Executar o Código
-
-Certifique-se de instalar os seguintes pacotes:
-
-```sh
-pip install pandas matplotlib seaborn scikit-learn
+### **Vídeo Demonstrativo**
+O vídeo apresentando a calculadora da AWS pode ser acessado no link abaixo:
+[Vídeo da Parte 2](https://youtu.be/XWOVIXWogJM)
