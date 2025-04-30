@@ -2,9 +2,12 @@
 
 ## Introdução
 
-Este projeto visa prever o **rendimento agrícola da cultura da laranja**, com foco na **microrregião de Bebedouro (SP)**, por meio de técnicas de **Machine Learning supervisionado** aplicadas a dados de sensoriamento remoto (NDVI) e produção histórica. A solução integra múltiplos conjuntos de dados estruturados e fornece uma abordagem prática para auxiliar a tomada de decisão no agronegócio.
+Este projeto tem como objetivo prever o rendimento agrícola da cultura da laranja, com foco na microrregião de Bebedouro (SP), por meio da aplicação de técnicas de Machine Learning supervisionado sobre dados históricos de produção e índices espectrais derivados de sensoriamento remoto (NDVI).
+
+A solução desenvolvida integra diferentes fontes de dados estruturados em uma base unificada, permitindo identificar padrões produtivos relevantes e fornecer suporte analítico à tomada de decisão no agronegócio, com foco em maior eficiência, previsibilidade e sustentabilidade das safras.
 
 ---
+
 ## Dados utilzados
 
 Os arquivos usados para a predição do modelo são:
