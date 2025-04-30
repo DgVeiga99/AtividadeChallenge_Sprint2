@@ -74,5 +74,5 @@ Essa abordagem pode ser aplicada em outras culturas e regiões, oferecendo uma f
 ---
 
 ### **Vídeo Demonstrativo**
-O vídeo apresentando a calculadora da AWS pode ser acessado no link abaixo:
-[Vídeo da Parte 2](https://youtu.be/XWOVIXWogJM)
+O vídeo apresentando o processo de execução do código desenvolvido:
+[Challenge Enterprise_Sprint2](https://youtu.be/XWOVIXWogJM)
